@@ -34,7 +34,7 @@ hr {
 
 /* links */
 .link {
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin-top: 2rem;
@@ -90,6 +90,9 @@ hr {
     font-weight: bold;
 }
 
+.top-room {
+    margin-top: 2rem;
+}
 /* header */
 .hero {
     padding: 2rem;
