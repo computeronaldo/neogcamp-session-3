@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redux Blog | Dummy Blog</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Prajwal Choudhary</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="./projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="./blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading">React <span class="heading-inverted">Redux</span></h1>
+    </header>
+    
+    <section class="section">
+        <div class="container-center">
+            <p>Working on small projects using hooks like useState, useReducer and context API for state management on client side 
+                seems to work okay but as size of our projects grow these hooks feels quite obselete and working with them becomes quite tedious. 
+                And to tackle this problem is where tools like Redux come into picture.
+            </p>
+            <p>The big picture of the way redux manages state is quite similar to how context api manages state but redux does the same thing at 
+                application level and keeping all things in one place.(This might be a bad analogy but this helped me to grasp the working of redux).
+                So the main idea behind redux is that their is a single place where we maintain whole state of our application, all the data required 
+                by various components is going to be managed at one location inside the redux store. Now next question is how to modify the state 
+                of our store. Well this is where concept of a reducer function comes into play which provides actions which are used inside components 
+                to dispatch these actions which in turn modify the redux store. Now keep in mind a component must be subscribed to the redux store
+                to dispatch these actions and also this subscription makes sure whenever an action is dispatched from a component and state 
+                of our store updates to re-render the subscribed component with latest state of our store. 
+            </p>
+            <p>Below mentioned is what you can call a mental map to the concept of redux in your head.</p>
+            <p>The intent of this blog was not to cover all the technical details of how redux works but just 
+                to give a general overview also their are a lot of free amazing tutorials to learn redux so go 
+                learn from them and make projects😊.
+            </p>
+            <img class="resize" src="./images/PXL_20230914_134238421.jpg" alt="redux-working">
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-header">
+            social media presence
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/computeronaldo">github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/MGgofgwoQqavvql">twitter</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/prajwal-choudhary-a8010418b/=">linkedin</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

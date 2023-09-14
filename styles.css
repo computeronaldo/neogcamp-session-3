@@ -149,3 +149,9 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+.resize {
+    margin-top: 1rem;
+    min-height: 15vh;
+    width: 80%;
+}
