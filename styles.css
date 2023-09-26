@@ -153,5 +153,9 @@ hr {
 .resize {
     margin-top: 1rem;
     min-height: 15vh;
-    width: 80%;
+    width: 90%;
+}
+
+.resize-cors {
+    width: 90%;
 }
