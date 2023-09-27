@@ -40,7 +40,7 @@ hr {
     margin-top: 2rem;
     width: 20%;
     max-width: 100px;
-    margin: auto;
+    margin: auto 1rem;
 }
 
 .link-primary {
